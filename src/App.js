@@ -1,13 +1,19 @@
 import './App.css';
 
 function App() {
+  const gifStyle = {
+    display: 'block',
+    margin: '0 auto', // This centers the GIF horizontally
+    maxWidth: '100%', // Ensure the GIF doesn't exceed the container width
+  };
+
   return (
-   <div>
-      <p> scroll down the image</p>
-     <img
+    <div>
+      <img
         src="https://media.tenor.com/MCL_y9BGN9IAAAAC/futurama-good-news.gif"
         alt="Good News GIF"
-        width="200" // Adjust the width to your desired size
+        style={gifStyle}
+        width="400" // Adjust the width to your desired size
       />
       <iframe
         title="Google Form"
@@ -21,9 +27,10 @@ function App() {
         Loading...
       </iframe>
       <img
-        src="https://media.tenor.com/MCL_y9BGN9IAAAAC/futurama-good-news.gif"
+        src="https://media.tenor.com/ekUcLfSGNAQAAAAC/abhi-maza-aayega-na-bhidu-johnny-lever.gif"
         alt="Good News GIF"
-        width="200" // Adjust the width to your desired size
+        style={gifStyle}
+        width="400" // Adjust the width to your desired size
       />
     </div>
   );
