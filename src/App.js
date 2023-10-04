@@ -2,27 +2,18 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-           Codespaces  Bharat Bhushan
-          {/* <span className="heart">♥️</span> React */}
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+   <div>
+      <iframe
+        title="Google Form"
+        src="https://docs.google.com/forms/d/e/1FAIpQLScxyE1YTc7cJe1iuNLejvC7pPBLrUgNkQNY1hnB9oxikocu7w/viewform"
+        width="100%"
+        height="800"
+        frameBorder="0"
+        marginHeight="0"
+        marginWidth="0"
+      >
+        Loading...
+      </iframe>
     </div>
   );
 }
