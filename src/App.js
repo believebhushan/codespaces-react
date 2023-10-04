@@ -3,10 +3,11 @@ import './App.css';
 function App() {
   return (
    <div>
-      <img
+      <p> scroll down the image</p>
+     <img
         src="https://media.tenor.com/MCL_y9BGN9IAAAAC/futurama-good-news.gif"
         alt="Good News GIF"
-        width="100%"
+        width="200" // Adjust the width to your desired size
       />
       <iframe
         title="Google Form"
@@ -22,7 +23,7 @@ function App() {
       <img
         src="https://media.tenor.com/MCL_y9BGN9IAAAAC/futurama-good-news.gif"
         alt="Good News GIF"
-        width="100%"
+        width="200" // Adjust the width to your desired size
       />
     </div>
   );
