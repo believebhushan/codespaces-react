@@ -17,7 +17,7 @@ function App() {
       />
       <iframe
         title="Google Form"
-        src="https://docs.google.com/forms/d/e/1FAIpQLScxyE1YTc7cJe1iuNLejvC7pPBLrUgNkQNY1hnB9oxikocu7w/viewform"
+        src="https://forms.gle/rZVG6nKoLHdMbhtJ8"
         width="100%"
         height="800"
         frameBorder="0"
